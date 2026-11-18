@@ -1,0 +1,51 @@
+\usepackage[all]{background}
+
+%----------------------------------------------------------------------------------------
+%   SHOW / HIDE PART TITLE IN THE LEFT BAR
+%----------------------------------------------------------------------------------------
+
+\newif\ifbackgroundtitlevisible
+\backgroundtitlevisibletrue
+
+\newif\ifbackgroundbarvisible
+\backgroundbarvisibletrue
+
+%----------------------------------------------------------------------------------------
+%   CONFIGURE LEFT BAR
+%   hshift=0 = flush with physical left page edge on every page.
+%   Title is positioned using `current page.west` so the vertical centre
+%   is always exactly at mid-page — no clipping regardless of title length.
+%----------------------------------------------------------------------------------------
+
+\backgroundsetup{
+  pages=all,
+  scale=1,
+  color=bgacc,
+  opacity=1,
+  angle=0,
+  position=current page.south west,
+  vshift=0mm,
+  hshift=0mm,
+  contents={%
+    \tikz[remember picture, overlay]{
+      \colorlet{fg}{fgacc}%
+      \colorlet{FG}{fgacc}%
+      \ifbackgroundbarvisible
+        \fill[bgacc]
+          (current page.south west) rectangle
+          ($(current page.north west)+(16mm,0)$);
+      \fi
+      \ifbackgroundtitlevisible
+        % current page.west is the left-centre of the page.
+        % Shifting 8mm right puts us in the middle of the 16mm bar.
+        \node[rotate=90,
+              text=fgacc,
+              font=\normalsize\bfseries\headingfontfamily,
+              anchor=center,
+              text width=16cm,
+              align=center]
+          at ($(current page.west)+(8mm,0)$) {\currentparttitle};
+      \fi
+    }
+  }
+}

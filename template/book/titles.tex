@@ -1,0 +1,44 @@
+\usepackage{titlesec}
+
+%----------------------------------------------------------------------------------------
+%   SET TEXT FOR THE PART PAGE
+%----------------------------------------------------------------------------------------
+
+\newcommand{\currentparttitle}{}
+\newcommand{\currentpartintro}{}
+\newcommand{\setparttitle}[1]{\renewcommand{\currentparttitle}{#1}}
+\newcommand{\setpartintro}[1]{\renewcommand{\currentpartintro}{#1}}
+
+%----------------------------------------------------------------------------------------
+%   LAYOUT
+%----------------------------------------------------------------------------------------
+
+% left=1.5cm keeps text clear of the 16mm orange bar
+% before=9cm pushes title down to the visual centre of the page
+\titlespacing*{\part}{1.5cm}{9cm}{20pt}
+
+%----------------------------------------------------------------------------------------
+%   FORMAT
+%----------------------------------------------------------------------------------------
+
+\titleformat{\part}[display]
+  {}
+  {}
+  {0pt}
+  {\noindent\begin{tikzpicture}[overlay]
+    % horizontal bg strip behind title
+    \node[anchor=north west, inner sep=0mm, outer sep=0pt, minimum height=48mm, minimum width=\paperwidth, xshift=0cm, yshift=2.8cm, fill=bg] {\parbox{\paperwidth}{}};
+    % introduction block below title
+    \node[anchor=north west, inner sep=0pt, outer sep=0pt, minimum height=48mm, minimum width=\paperwidth, xshift=0cm, yshift=-4cm, align=left] {\currentpartintro};
+  \end{tikzpicture}%
+  % \raggedright = left-aligned (no full justification)
+  % 38pt is big and impactful but wraps cleanly to a new line
+  \raggedright\fontsize{38}{46}\selectfont\headingfontfamily\bfseries\color{fg}\MakeUppercase}
+
+\let\originalpart\part
+
+\renewcommand{\part}[1]{% bar visible, title text hidden on part pages
+\setparttitle{\uppercase{#1}}
+\backgroundtitlevisiblefalse
+\originalpart{#1}
+\backgroundtitlevisibletrue}

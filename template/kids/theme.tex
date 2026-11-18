@@ -1,0 +1,340 @@
+% =============================================================================
+%   KIDS WORKBOOK THEME
+%   Colourful, friendly palette for children aged 9-12
+%   Requires lualatex / xelatex (fontspec)
+% =============================================================================
+
+% Emoji support via Segoe UI Emoji (available on Windows)
+\newfontfamily\emojifont{Segoe UI Emoji}[Renderer=HarfBuzz]
+\newcommand{\emoji}[1]{{\emojifont #1}}
+
+% ---------------------------------------------------------------------------
+%   COVER PAGE OVERRIDE
+%   A clean, bold kids-workbook cover:
+%     - Warm cream background
+%     - Orange diagonal lines top-right (geometric accent)
+%     - Orange left bar (16 mm)
+%     - Large orange title block at the bottom with white title + subtitle
+% ---------------------------------------------------------------------------
+\renewcommand{\coverpage}[5]{%  #1=title #2=subtitle #3=author #4=date #5=version
+  \pagestyle{empty}
+  \newgeometry{left=0cm,top=0cm,right=0cm,bottom=0cm}
+  
+  \definecolor{ModBlue}{HTML}{3B82F6}    % Módulo 1: Azul Eléctrico
+  \definecolor{ModGreen}{HTML}{10B981}   % Módulo 2: Verde Esmeralda
+  \definecolor{ModYellow}{HTML}{F59E0B}  % Módulo 3: Amarillo / Naranja Cálido
+  \definecolor{ModPink}{HTML}{EC4899}    % Módulo 4: Rosa Neón / Magenta
+  \definecolor{BgCream}{HTML}{FAF8F2}    % Fondo Crema Claro
+  \definecolor{DarkText}{HTML}{1A202C}   % Texto Oscuro Súper Legible
+
+  \begin{tikzpicture}[remember picture, overlay]
+
+      % --- FONDO GENERAL DE LA PÁGINA ---
+      \fill[BgCream] (current page.south west) rectangle (current page.north east);
+
+      % --- PATRÓN GEOMÉTRICO ESTILO BAUHAUS A LA IZQUIERDA ---
+      \begin{scope}[shift={(current page.north west)}, yshift=-2cm]
+          
+          % BLOCKS DE PATRÓN REPETITIVO (COLUMNA IZQUIERDA DE MÓDULOS)
+          \foreach \i in {0, 1, 2} {
+              \begin{scope}[yshift=-\i*8.5cm]
+                  % Fila 1: Cuadrados y Círculos Concéntricos (Rosa + Azul)
+                  \fill[ModPink, rounded corners=0.4cm] (0, 0) rectangle (3.8, -3.8);
+                  \fill[ModBlue] (1.9, -1.9) circle (1.3);
+                  \fill[ModYellow] (1.9, -1.9) circle (0.6);
+
+                  % Fila 1 Derecha: Semicírculo Verde
+                  \fill[ModGreen] (3.8, 0) rectangle (7.6, -3.8);
+                  \fill[BgCream] (3.8, -3.8) -- (3.8, 0) arc (90:0:3.8) -- cycle;
+
+                  % Fila 2: Cuadrados y Círculos (Verde + Amarillo)
+                  \fill[ModYellow, rounded corners=0.4cm] (0, -3.8) rectangle (3.8, -7.6);
+                  \fill[ModGreen] (1.9, -5.7) circle (1.3);
+                  \fill[ModPink] (1.9, -5.7) circle (0.6);
+
+                  % Fila 2 Derecha: Semicírculo Azul con Círculo Amarillo Interno
+                  \fill[ModBlue] (3.8, -3.8) rectangle (7.6, -7.6);
+                  \fill[BgCream] (3.8, -3.8) -- (7.6, -3.8) arc (0:-90:3.8) -- cycle;
+                  \fill[ModYellow] (3.8, -3.8) -- (5.9, -3.8) arc (0:-90:2.1) -- cycle;
+              \end{scope}
+          }
+          
+      \end{scope}
+
+      % --- TEXTO SUPERIOR DERECHA (MARCA / SUBTÍTULO) ---
+      \node[anchor=north east, align=right, font=\headingfontfamily] at ([xshift=-1.5cm, yshift=-2.5cm]current page.north east) {
+          {\fontsize{32}{36}\selectfont \textbf{\color{DarkText} #1}}\\[0.2cm]
+          {\fontsize{12}{15}\selectfont \color{DarkText!80} English \& Fun for Kids}\\[0.1cm]
+          {\fontsize{10}{13}\selectfont \color{DarkText!60} ENGLISH COURSE #4}
+      };
+
+      % --- TÍTULOS VERTICALES GRANDES (ESTILO RECTOR DE LA IMAGEN) ---
+      \node[anchor=south east, rotate=90, inner sep=0pt, font=\titlefontfamily] at ([xshift=-1.8cm, yshift=2.5cm]current page.south east) {
+          \begin{minipage}{18cm}
+              \raggedright
+              {\fontsize{48}{54}\selectfont \textbf{\color{ModBlue} WORKBOOK}}\\[0.3cm]
+              {\fontsize{42}{48}\selectfont \textbf{\color{ModPink} INTERACTIVE}}
+          \end{minipage}
+      };
+
+      % --- LÍNEA DE DETALLE Y LEYENDA INFERIOR DERECHA ---
+      \draw[ModYellow, line width=2pt] ([xshift=8.5cm, yshift=2.2cm]current page.south west) -- ([xshift=-1.5cm, yshift=2.2cm]current page.south east);
+
+      \node[anchor=south east, align=right, font=\headingfontfamily] at ([xshift=-1.5cm, yshift=1.2cm]current page.south east) {
+          {\fontsize{9}{12}\selectfont \color{DarkText!70} \textbf{CONVERSATIONAL A1} $\cdot$ 24 INTERACTIVE SESSIONS}
+      };
+
+  \end{tikzpicture}
+  \clearpage
+  \restoregeometry
+}
+
+% ---------------------------------------------------------------------------
+%   COLOUR PALETTE
+% ---------------------------------------------------------------------------
+% We define named colours and then map them to the template semantic tokens.
+
+\usepackage[table]{xcolor}
+\usepackage{pagecolor}
+
+% Raw named colours
+\definecolor{kidsBlue}   {HTML}{3B82F6}  % vivid sky blue
+\definecolor{kidsGreen}  {HTML}{22C55E}  % fresh green
+\definecolor{kidsYellow} {HTML}{FCD34D}  % warm yellow
+\definecolor{kidsOrange} {HTML}{F97316}  % punchy orange
+\definecolor{kidsPink}   {HTML}{EC4899}  % playful pink
+\definecolor{kidsPurple} {HTML}{A855F7}  % fun purple
+\definecolor{kidsRed}    {HTML}{EF4444}  % alert red
+\definecolor{kidsLightBg}{HTML}{FFFFFF}  % white page
+\definecolor{kidsCardBg} {HTML}{FFFFFF}  % card white
+\definecolor{kidsGray}   {HTML}{6B7280}  % body text
+\definecolor{kidsDark}   {HTML}{1F2937}  % headings
+\definecolor{kidsGreenEsmeralda}{HTML}{10B981}
+\definecolor{kidsWarmYellow}    {HTML}{F59E0B}
+
+% Semantic mapping (overrides the template tokens)
+\colorlet{accent}   {kidsBlue}
+\colorlet{fg}       {kidsDark}
+\colorlet{FG}       {fg}
+\colorlet{fgalt}    {kidsGray}
+\colorlet{fgacc}    {kidsCardBg}
+\colorlet{bg}       {kidsLightBg}
+\colorlet{bgalt}    {bg}
+\colorlet{bgacc}    {accent}
+\colorlet{border}   {kidsDark}
+\colorlet{borderalt}{kidsGray}
+\colorlet{borderacc}{accent}
+
+\pagecolor{bg}
+\color{fg}
+
+% ---------------------------------------------------------------------------
+%   FONTS  — friendly rounded look (Windows system fonts)
+% ---------------------------------------------------------------------------
+% We use Segoe UI (body) and Candara (headings) — both pre-installed on
+% Windows and very readable for children.
+% (fontspec is already loaded by the base template)
+
+% Body font: Segoe UI — clean, modern, friendly
+\setmainfont[
+  Ligatures  = TeX,
+  BoldFont   = {Segoe UI Bold},
+  ItalicFont = {Segoe UI Italic},
+  BoldItalicFont = {Segoe UI Bold Italic}
+]{Segoe UI}
+
+% Heading font: Bahnschrift — bold, DK-book style
+% Bahnschrift is a variable font (single .ttf), so we use AutoFakeBold
+% to get a heavy weight for headings and titles.
+\renewfontfamily\headingfontfamily[
+  Ligatures    = TeX,
+  AutoFakeBold = 2
+]{Bahnschrift}
+\newfontfamily\titlefontfamily[
+  Ligatures    = TeX,
+  AutoFakeBold = 2.5
+]{Bahnschrift}
+
+% ---------------------------------------------------------------------------
+%   TYPOGRAPHY RULES
+% ---------------------------------------------------------------------------
+% No automatic hyphenation — whole words always move to the next line.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy  % allow slightly looser line-breaking to avoid overflow
+
+% ---------------------------------------------------------------------------
+%   EXTRA WORKBOOK-SPECIFIC BOXES (tcolorbox)
+% ---------------------------------------------------------------------------
+\usepackage[most]{tcolorbox}
+\usetikzlibrary{shadows}
+
+% ------ vocabulary card -------
+\newtcolorbox{vocabcard}[2][]{%
+  enhanced,
+  title        = {\bfseries\color{kidsCardBg}#2},
+  fonttitle    = \headingfontfamily\large,
+  colback      = kidsCardBg,
+  colframe     = kidsBlue,
+  colbacktitle = kidsBlue,
+  coltitle     = kidsCardBg,
+  boxrule      = 2pt,
+  arc          = 8pt,
+  outer arc    = 8pt,
+  boxsep       = 8pt,
+  left         = 6pt,
+  right        = 6pt,
+  drop shadow  = {kidsBlue!40},
+  #1
+}
+
+% ------ activity box ----------
+\newtcolorbox{activity}[2][]{%
+  enhanced,
+  title        = {\bfseries\color{kidsCardBg}\faIcon{pencil-alt}\ #2},
+  fonttitle    = \headingfontfamily\normalsize,
+  colback      = kidsCardBg,
+  colframe     = kidsGreen,
+  colbacktitle = kidsGreen,
+  coltitle     = kidsCardBg,
+  boxrule      = 2pt,
+  arc          = 8pt,
+  outer arc    = 8pt,
+  boxsep       = 8pt,
+  left         = 6pt,
+  right        = 6pt,
+  drop shadow  = {kidsGreen!30},
+  #1
+}
+
+% ------ song / rhyme box ------
+\newtcolorbox{songbox}[2][]{%
+  enhanced,
+  title        = {\bfseries\color{kidsCardBg}\faIcon{music}\ #2},
+  fonttitle    = \headingfontfamily\normalsize,
+  colback      = kidsPink!10,
+  colframe     = kidsPink,
+  colbacktitle = kidsPink,
+  coltitle     = kidsCardBg,
+  boxrule      = 2pt,
+  arc          = 8pt,
+  outer arc    = 8pt,
+  boxsep       = 8pt,
+  left         = 6pt,
+  right        = 6pt,
+  drop shadow  = {kidsPink!30},
+  #1
+}
+
+% ------ grammar tip box ------
+\newtcolorbox{grammartip}[2][]{%
+  enhanced,
+  title        = {\bfseries\color{kidsCardBg}\faIcon{lightbulb}\ #2},
+  fonttitle    = \headingfontfamily\normalsize,
+  colback      = kidsYellow!20,
+  colframe     = kidsOrange,
+  colbacktitle = kidsOrange,
+  coltitle     = kidsCardBg,
+  boxrule      = 2pt,
+  arc          = 8pt,
+  outer arc    = 8pt,
+  boxsep       = 8pt,
+  left         = 6pt,
+  right        = 6pt,
+  drop shadow  = {kidsOrange!25},
+  #1
+}
+
+% ------ reading box ----------
+\newtcolorbox{readingbox}[2][]{%
+  enhanced,
+  title        = {\bfseries\color{kidsCardBg}\faIcon{book-open}\ #2},
+  fonttitle    = \headingfontfamily\normalsize,
+  colback      = kidsPurple!8,
+  colframe     = kidsPurple,
+  colbacktitle = kidsPurple,
+  coltitle     = kidsCardBg,
+  boxrule      = 2pt,
+  arc          = 8pt,
+  outer arc    = 8pt,
+  boxsep       = 8pt,
+  left         = 6pt,
+  right        = 6pt,
+  drop shadow  = {kidsPurple!25},
+  #1
+}
+
+% ------ answer line helper ---
+% \answerline{width}  →  a solid line for writing answers
+\newcommand{\answerline}[1][8cm]{%
+  \tikz{\draw[kidsGray, line width=0.8pt] (0,0) -- (#1,0);}%
+}
+
+% ------ writing lines (blank ruled area) ---
+% Solid lines with 22pt spacing so children have room to write comfortably.
+\newcommand{\writinglines}[1][5]{%  #1 = number of lines
+  \par\vspace{6pt}%
+  \foreach \n in {1,...,#1}{%
+    \vspace{22pt}%
+    \tikz{\draw[kidsGray!60, line width=0.6pt] (0,0) -- (\linewidth,0);}\par%
+  }%
+  \vspace{6pt}%
+}
+
+% ------ vocabulary word pair  (EN | ES) ------
+\newcommand{\vocabpair}[2]{%
+  \begin{tabular}{@{}p{0.45\linewidth}@{\hspace{0.05\linewidth}}p{0.45\linewidth}@{}}
+    {\bfseries\color{kidsBlue}#1} & {\color{kidsGray}#2} \\[2pt]
+    \tikz{\draw[kidsBlue!30, line width=0.5pt] (0,0) -- (\linewidth,0);} &
+    \tikz{\draw[kidsGray!30, line width=0.5pt] (0,0) -- (\linewidth,0);}
+  \end{tabular}
+  \vspace{4pt}
+}
+
+% ------ star rating (for self-assessment) -----
+\newcommand{\selfcheck}[1][3]{%  #1 = filled stars (0-5)
+  \foreach \i in {1,...,5}{%
+    \ifnum\i>#1
+      {\color{kidsGray!40}$\bigstar$}%
+    \else
+      {\color{kidsYellow}$\bigstar$}%
+    \fi
+  }%
+}
+
+% ------ icon shortcuts (fontawesome5) ----------
+\usepackage{fontawesome5}
+
+% ---------------------------------------------------------------------------
+%   SECTION TITLE COLOURS  (colourful rotating palette)
+% ---------------------------------------------------------------------------
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\normalfont\titlefontfamily\bfseries\fontsize{28}{32}\selectfont\color{accent}}
+  {\chaptertitlename\ \thechapter}{6pt}
+  {\bfseries\fontsize{34}{40}\selectfont\color{kidsDark}}
+
+% [right-margin] = 1.5cm forces long chapter titles to wrap before
+% touching the right edge — wrapped line keeps the same left alignment.
+\titlespacing*{\chapter}{0pt}{10pt}{20pt}[1.5cm]
+
+\titleformat{\section}
+  {\normalfont\headingfontfamily\bfseries\fontsize{14}{17}\selectfont\color{accent}}
+  {\thesection}{0.8em}{}
+
+\titleformat{\subsection}
+  {\normalfont\headingfontfamily\bfseries\fontsize{12}{15}\selectfont\color{kidsDark}}
+  {\thesubsection}{0.6em}{}
+
+% ---------------------------------------------------------------------------
+%   SIDEBAR PART TITLE HOOK
+% ---------------------------------------------------------------------------
+\let\kidspart\part
+\renewcommand{\part}[1]{%
+  \gdef\currentparttitle{\MakeUppercase{#1}}%
+  \backgroundtitlevisiblefalse
+  \kidspart{#1}%
+  \backgroundtitlevisibletrue
+}
+

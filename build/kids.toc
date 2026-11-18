@@ -1,0 +1,33 @@
+\babel@toc {english}{}\relax 
+\contentsline {part}{I\hspace {1em}Module 1: All About Me}{4}{part.1}%
+\contentsline {chapter}{\numberline {1}Greetings \& Introductions}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Expressing Emotions}{10}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Colors \& Numbers 1--20}{14}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Big Numbers 21--100}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}School Supplies \& Objects}{20}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Project 1 -- Show \& Tell}{23}{chapter.6}%
+\contentsline {part}{II\hspace {1em}Module 2: Family \& Animals}{27}{part.2}%
+\contentsline {chapter}{\numberline {7}Family Members}{28}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Describing My Family}{32}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Pets \& Domestic Animals}{36}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Wild Animals \& the Zoo}{40}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Animal Abilities -- Can / Can't}{43}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Project 2 --- Family \& Pets Poster}{46}{chapter.12}%
+\contentsline {part}{III\hspace {1em}Module 3: Food, Routines \& Daily Life}{49}{part.3}%
+\contentsline {chapter}{\numberline {13}Food \& Drinks Vocabulary}{50}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Expressing Likes \& Dislikes}{54}{chapter.14}%
+\contentsline {chapter}{\numberline {15}At the Restaurant -- Roleplay}{57}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Daily Routine Verbs}{61}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Days of the Week \& Time}{65}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Project 3 -- My Daily Schedule}{69}{chapter.18}%
+\contentsline {part}{IV\hspace {1em}Module 4: Superheroes, Clothes \& City}{72}{part.4}%
+\contentsline {chapter}{\numberline {19}Clothes \& Accessories}{73}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Weather \& Seasons}{77}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Places in the City}{81}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Prepositions of Place}{85}{chapter.22}%
+\contentsline {chapter}{\numberline {23}Superhero Workshop}{88}{chapter.23}%
+\contentsline {chapter}{\numberline {24}Grand Final -- Graduation Showcase}{90}{chapter.24}%
+\newpage 
+\contentsline {part}{V\hspace {1em}Appendices}{93}{part.5}%
+\contentsline {chapter}{\numberline {25}My Word List}{94}{chapter.25}%
+\contentsfinish 

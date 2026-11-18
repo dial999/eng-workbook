@@ -1,0 +1,4430 @@
+This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.7.29)  9 SEP 2026 11:00
+ restricted system commands enabled.
+**kids.tex
+(./kids.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/dlmunoz/AppData/Local/MiKT
+eX/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload
+/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/dlmunoz/AppData/Local/MiKT
+eX/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/dlmunoz/AppDa
+ta/Local/Programs/MiKTeX/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/base/bk11.clo
+File: bk11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/dlmunoz/AppData/Local
+/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+)
+(./context.tex) (./template/book/main.tex (./template/generic/main.tex
+(./template/generic/themes.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.d
+ef
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.lt
+x)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen148
+\ar@mcellbox=\box53
+\extrarowheight=\dimen149
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
+\everycr=\toks18
+\minrowclearance=\skip53
+\rownum=\count282
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pagecolor/pagecolor.s
+ty
+Package: pagecolor 2025-01-28 v1.2d Provides thepagecolor (HMM)
+)) (./template/generic/geometry.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count285
+\calc@Cskip=\skip56
+)
+(./template/generic/page.tex) (./template/generic/fonts.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpa
+rse.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-l
+uatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count286
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-lua
+tex.sty
+Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count287
+\l__fontspec_language_int=\count288
+\l__fontspec_strnum_int=\count289
+\l__fontspec_tmp_int=\count290
+\l__fontspec_tmpa_int=\count291
+\l__fontspec_tmpb_int=\count292
+\l__fontspec_tmpc_int=\count293
+\l__fontspec_em_int=\count294
+\l__fontspec_emdef_int=\count295
+\l__fontspec_strong_int=\count296
+\l__fontspec_strongdef_int=\count297
+\l__fontspec_tmpa_dim=\dimen152
+\l__fontspec_tmpb_dim=\dimen153
+\l__fontspec_tmpc_dim=\dimen154
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+))) (C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language3
+\l@armenian=\language4
+\l@assamese=\language5
+\l@basque=\language6
+\l@belarusian=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@churchslavonic=\language12
+\l@classiclatin=\language13
+\l@coptic=\language14
+\l@croatian=\language15
+\l@czech=\language16
+\l@danish=\language17
+\l@dutch=\language18
+\l@esperanto=\language19
+\l@estonian=\language20
+\l@ethiopic=\language21
+\l@finnish=\language22
+\l@french=\language23
+\l@friulan=\language24
+\l@galician=\language25
+\l@georgian=\language26
+\l@german=\language27
+\l@greek=\language28
+\l@gujarati=\language29
+\l@hindi=\language30
+\l@hungarian=\language31
+\l@icelandic=\language32
+\l@indonesian=\language33
+\l@interlingua=\language34
+\l@irish=\language35
+\l@italian=\language36
+\l@kannada=\language37
+\l@kurmanji=\language38
+\l@latin=\language39
+\l@latvian=\language40
+\l@lithuanian=\language41
+\l@liturgicallatin=\language42
+\l@macedonian=\language43
+\l@malayalam=\language44
+\l@marathi=\language45
+\l@mongolian=\language46
+\l@mongolianlmc=\language47
+\l@monogreek=\language48
+\l@ngerman=\language49
+\l@nynorsk=\language50
+\l@occitan=\language51
+\l@oriya=\language52
+\l@pali=\language53
+\l@panjabi=\language54
+\l@piedmontese=\language55
+\l@polish=\language56
+\l@portuguese=\language57
+\l@romanian=\language58
+\l@romansh=\language59
+\l@russian=\language60
+\l@sanskrit=\language61
+\l@serbian=\language62
+\l@serbianc=\language63
+\l@slovak=\language64
+\l@slovenian=\language65
+\l@spanish=\language66
+\l@swedish=\language67
+\l@swissgerman=\language68
+\l@tamil=\language69
+\l@telugu=\language70
+\l@thai=\language71
+\l@turkish=\language72
+\l@turkmen=\language73
+\l@ukenglish=\language74
+\l@ukrainian=\language75
+\l@uppersorbian=\language76
+\l@usenglishmax=\language77
+\l@welsh=\language78
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count298
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen155
+\l@unhyphenated=\language79
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/bab
+el-english.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english
+.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 108.
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype.s
+ty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
+)
+\MT@toks=\toks20
+\MT@tempbox=\box55
+\MT@count=\count300
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks21
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen156
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count301
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype-l
+uatex.def
+File: microtype-luatex.def 2026/03/01 v3.2d Definitions specific to luatex (RS)
+
+Lua module: microtype 2026/03/01 v3.2d microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 779.
+LaTeX Info: Redefining \lslig on input line 779.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype.c
+fg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+
+Package fontspec Info: 
+(fontspec)             Inconsolata-LGC.otf scale = 0.9464019525306435.
+
+
+Package fontspec Info: 
+(fontspec)             Inconsolata-LGC scale = 0.9464019525306435.
+
+
+Package fontspec Info: 
+(fontspec)             Inconsolata-LGC-Bold scale = 0.9464019525306435.
+
+
+Package fontspec Info: 
+(fontspec)             Inconsolata-LGC-Italic scale = 0.9464019525306435.
+
+
+Package fontspec Info: 
+(fontspec)             Inconsolata-LGC-BoldItalic scale = 0.9464019525306435.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Inconsolata-LGC(0)' created for font
+(fontspec)             'Inconsolata-LGC' with options
+(fontspec)             [Path=template/generic/fonts/inconsolata/,Ligatures=TeX,
+Scale=MatchUppercase,UprightFont
+(fontspec)             = *.otf,BoldFont = *-Bold.otf,ItalicFont =
+(fontspec)             *-Italic.otf,BoldItalicFont = *-BoldItalic.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9464019525306435]"[template/generic/fonts/incons
+olata/Inconsolata-LGC.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9464019525306435]"[template/generic/fonts/incons
+olata/Inconsolata-LGC-Bold.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9464019525306435]"[template/generic/fonts/incons
+olata/Inconsolata-LGC-Italic.otf]:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9464019525306435]"[template/generic/fonts/incons
+olata/Inconsolata-LGC-BoldItalic.otf]:mode=node;script=latn;language=dflt;+tlig
+;"
+
+) (./template/generic/titles.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box56
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks22
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+)) (./template/generic/math.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen162
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count302
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count303
+\leftroot@=\count304
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count305
+\DOTSCASE@=\count306
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count307
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count308
+\dotsspace@=\muskip17
+\c@parentequation=\count309
+\dspbrk@lvl=\count310
+\tag@help=\toks24
+\row@=\count311
+\column@=\count312
+\maxfields@=\count313
+\andhelp@=\toks25
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks26
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks33
+)
+(./template/generic/links.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.s
+ty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks34
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.s
+ty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count314
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc
+.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen171
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count317
+ (C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count318
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen172
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count319
+\Field@Width=\dimen173
+\Fld@charsize=\dimen174
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count323
+\c@bookmark@seq@number=\count324
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunf
+ilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip66
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bkm-luatex.d
+ef
+File: bkm-luatex.def 2026-05-21 v1.32 bookmark driver for luaTeX (HO)
+\BKM@id=\count325
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/hypcap/hypcap.sty
+Package: hypcap 2024-07-26 v1.13 Adjusting the anchors of captions (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+))
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 20.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 20.
+
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 20.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+Package hyperref Info: Option `breaklinks' set `true' on input line 20.
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 20.
+
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 20.
+) (./template/generic/lists.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip67
+\enit@outerparindent=\dimen175
+\enit@toks=\toks35
+\enit@inbox=\box59
+\enit@count@id=\count326
+\enitdp@description=\count327
+)) (./template/generic/syntax.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count328
+\lst@gtempboxa=\box60
+\lst@token=\toks36
+\lst@length=\count329
+\lst@currlwidth=\dimen176
+\lst@column=\count330
+\lst@pos=\count331
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count332
+\lst@lineno=\count333
+\lst@maxwidth=\dimen179
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count334
+\lst@skipnumbers=\count335
+\lst@framebox=\box61
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(./template/generic/syntax/solidity.tex)) (./template/generic/headers.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip68
+\f@nch@offset@elh=\skip69
+\f@nch@offset@erh=\skip70
+\f@nch@offset@olh=\skip71
+\f@nch@offset@orh=\skip72
+\f@nch@offset@elf=\skip73
+\f@nch@offset@erf=\skip74
+\f@nch@offset@olf=\skip75
+\f@nch@offset@orf=\skip76
+\f@nch@height=\skip77
+\f@nch@footalignment=\skip78
+\f@nch@widthL=\skip79
+\f@nch@widthC=\skip80
+\f@nch@widthR=\skip81
+\@temptokenb=\toks37
+)) (./template/generic/boxes.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcolorbox.s
+ty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tik
+z.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.st
+y
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.
+sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfut
+il-common.tex
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfut
+il-latex.def
+\pgfutil@abb=\box62
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrc
+s.code.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.te
+x)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcor
+e.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen182
+\Gin@req@width=\dimen183
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsy
+s.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+yslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks41
+))
+\pgf@x=\dimen184
+\pgf@y=\dimen185
+\pgf@xa=\dimen186
+\pgf@ya=\dimen187
+\pgf@xb=\dimen188
+\pgf@yb=\dimen189
+\pgf@xc=\dimen190
+\pgf@yc=\dimen191
+\pgf@xd=\dimen192
+\pgf@yd=\dimen193
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count336
+\c@pgf@countb=\count337
+\c@pgf@countc=\count338
+\c@pgf@countd=\count339
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count340
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count341
+\pgfsyssoftpath@bigbuffer@items=\count342
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+ore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.co
+de.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathuti
+l.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen194
+\pgfmath@count=\count343
+\pgfmath@box=\box63
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.basic.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.trigonometric.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.random.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.comparison.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.base.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.round.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.misc.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcal
+c.code.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count344
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.cod
+e.tex)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen195
+\pgf@picmaxx=\dimen196
+\pgf@picminy=\dimen197
+\pgf@picmaxy=\dimen198
+\pgf@pathminx=\dimen199
+\pgf@pathmaxx=\dimen256
+\pgf@pathminy=\dimen257
+\pgf@pathmaxy=\dimen258
+\pgf@xx=\dimen259
+\pgf@xy=\dimen260
+\pgf@yx=\dimen261
+\pgf@yy=\dimen262
+\pgf@zx=\dimen263
+\pgf@zy=\dimen264
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen265
+\pgf@path@lasty=\dimen266
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen267
+\pgf@shorten@start@additional=\dimen268
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count345
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen269
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen270
+\pgf@pt@y=\dimen271
+\pgf@pt@temp=\dimen272
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen273
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen274
+\pgf@sys@shading@range@num=\count346
+\pgf@shadingcount=\count347
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box67
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box68
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen275
+\pgf@nodesepend=\dimen276
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.
+sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys
+.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfke
+ys.code.tex))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.co
+de.tex))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffo
+r.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen277
+\pgffor@skip=\dimen278
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen279
+)
+\tikz@lastx=\dimen280
+\tikz@lasty=\dimen281
+\tikz@lastxsaved=\dimen282
+\tikz@lastysaved=\dimen283
+\tikz@lastmovetox=\dimen284
+\tikz@lastmovetoy=\dimen285
+\tikzleveldistance=\dimen286
+\tikzsiblingdistance=\dimen287
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read4
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces
+.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
+\c@tcbbreakpart=\count357
+\c@tcblayer=\count358
+\c@tcolorbox@number=\count359
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen288
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbraster.c
+ode.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count360
+\c@tcbrasterrow=\count361
+\c@tcbrasternum=\count362
+\c@tcbraster=\count363
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbskins.co
+de.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tikzfill/tikzfill.ima
+ge.sty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tikzfill/tikzlibraryf
+ill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen289
+\l__tikzfill_tmpb_dim=\dimen290
+\l__tikzfill_img_box=\box82
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbskinsjig
+saw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbbreakabl
+e.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box83
+\tcb@totalupperbox=\box84
+\tcb@totallowerbox=\box85
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbhooks.co
+de.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbtheorems
+.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbfitting.
+code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen291
+\tcb@lowerfitdim=\dimen292
+\tcb@upperfitdim=\dimen293
+\tcb@cur@hbadness=\count364
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistings
+utf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistings
+.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcblistings
+core.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbprocessi
+ng.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count365
+))
+Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
+Library `listings` is loaded instead. on input line 29.
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbexternal
+.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbmagazine
+.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbvignette
+.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfli
+braryfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcbposter.c
+ode.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+))) (./template/generic/captions.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen294
+\captionmargin=\dimen295
+\caption@leftmargin=\dimen296
+\caption@rightmargin=\dimen297
+\caption@width=\dimen298
+\caption@indent=\dimen299
+\caption@parindent=\dimen300
+\caption@hangindent=\dimen301
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count366
+\c@continuedfloat=\count367
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: listings package is loaded.
+)) (./template/generic/images.tex) (./template/generic/figures.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfli
+braryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen302
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box86
+\pgf@layerboxsaved@background=\box87
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarymath.code.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryfpu.code.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgfli
+braryfpu.code.tex))
+\tikz@math@for@depth=\count368
+\tikz@math@dimen=\dimen303
+\tikz@math@toks=\toks52
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodu
+ledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count369
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
+)
+\tikz@lib@dec@box=\box88
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.callouts.code.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.callouts.code.tex))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/shape
+s/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box89
+\pgfnodeparttwobox=\box90
+\pgfnodepartthreebox=\box91
+\pgfnodepartfourbox=\box92
+\pgfnodeparttwentybox=\box93
+\pgfnodepartnineteenbox=\box94
+\pgfnodeparteighteenbox=\box95
+\pgfnodepartseventeenbox=\box96
+\pgfnodepartsixteenbox=\box97
+\pgfnodepartfifteenbox=\box98
+\pgfnodepartfourteenbox=\box99
+\pgfnodepartthirteenbox=\box100
+\pgfnodeparttwelvebox=\box101
+\pgfnodepartelevenbox=\box102
+\pgfnodeparttenbox=\box103
+\pgfnodepartninebox=\box104
+\pgfnodeparteightbox=\box105
+\pgfnodepartsevenbox=\box106
+\pgfnodepartsixbox=\box107
+\pgfnodepartfivebox=\box108
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tikzmark/tikzlibraryt
+ikzmark.code.tex
+File: tikzlibrarytikzmark.code.tex 2026/05/31 v1.16 TikZ library for marking po
+sitions in a document
+\l__sn_x_dim=\dimen311
+\l__sn_y_dim=\dimen312
+\l__sn_xa_dim=\dimen313
+\l__sn_ya_dim=\dimen314
+)) (./template/generic/tables.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen315
+\lightrulewidth=\dimen316
+\cmidrulewidth=\dimen317
+\belowrulesep=\dimen318
+\belowbottomsep=\dimen319
+\aboverulesep=\dimen320
+\abovetopsep=\dimen321
+\cmidrulesep=\dimen322
+\cmidrulekern=\dimen323
+\defaultaddspace=\dimen324
+\@cmidla=\count370
+\@cmidlb=\count371
+\@aboverulesep=\dimen325
+\@belowrulesep=\dimen326
+\@thisruleclass=\count372
+\@lastruleclass=\count373
+\@thisrulewidth=\dimen327
+))) (./template/book/page.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count374
+\Gm@cntv=\count375
+\c@Gm@tempcnt=\count376
+\Gm@bindingoffset=\dimen328
+\Gm@wd@mp=\dimen329
+\Gm@odd@mp=\dimen330
+\Gm@even@mp=\dimen331
+\Gm@layoutwidth=\dimen332
+\Gm@layoutheight=\dimen333
+\Gm@layouthoffset=\dimen334
+\Gm@layoutvoffset=\dimen335
+\Gm@dimlist=\toks53
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg
+)))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.s
+ty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-n
+ometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (./template/book/titles.tex) (./template/book/cover.tex)
+(./template/book/toc.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2025/01/04 v2.17 TOC entries
+\ttl@leftsep=\dimen336
+)
+\c@tocpartcount=\count377
+) (./template/book/background.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/background/background
+.sty
+Package: background 2014/03/04 v2.1 background material
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.te
+x
+\XKV@toks=\toks54
+\XKV@tempa@toks=\toks55
+)
+\XKV@depth=\count378
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/everypage/everypage.s
+ty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks56
+\AP@partial=\box109
+\AP@footins=\box110
+))) (./template/book/bibliography.tex
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count379
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count380
+\c@listtotal=\count381
+\c@listcount=\count382
+\c@liststart=\count383
+\c@liststop=\count384
+\c@citecount=\count385
+\c@citetotal=\count386
+\c@multicitecount=\count387
+\c@multicitetotal=\count388
+\c@instcount=\count389
+\c@maxnames=\count390
+\c@minnames=\count391
+\c@maxitems=\count392
+\c@minitems=\count393
+\c@citecounter=\count394
+\c@maxcitecounter=\count395
+\c@savedcitecounter=\count396
+\c@uniquelist=\count397
+\c@uniquename=\count398
+\c@refsection=\count399
+\c@refsegment=\count400
+\c@maxextratitle=\count401
+\c@maxextratitleyear=\count402
+\c@maxextraname=\count403
+\c@maxextradate=\count404
+\c@maxextraalpha=\count405
+\c@abbrvpenalty=\count406
+\c@highnamepenalty=\count407
+\c@lownamepenalty=\count408
+\c@maxparens=\count409
+\c@parenlevel=\count410
+\blx@tempcnta=\count411
+\blx@tempcntb=\count412
+\blx@tempcntc=\count413
+\c@blx@maxsection=\count414
+\blx@maxsegment@0=\count415
+\blx@notetype=\count416
+\blx@parenlevel@text=\count417
+\blx@parenlevel@foot=\count418
+\blx@sectionciteorder@0=\count419
+\blx@sectionciteorderinternal@0=\count420
+\blx@entrysetcounter=\count421
+\blx@biblioinstance=\count422
+\labelnumberwidth=\skip82
+\labelalphawidth=\skip83
+\biblabelsep=\skip84
+\bibitemsep=\skip85
+\bibnamesep=\skip86
+\bibinitsep=\skip87
+\bibparsep=\skip88
+\bibhang=\skip89
+\blx@bcfin=\read5
+\blx@bcfout=\write4
+\blx@langwohyphens=\language80
+\c@mincomprange=\count423
+\c@maxcomprange=\count424
+\c@mincompwidth=\count425
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count426
+\c@savedafterword=\count427
+\c@annotator=\count428
+\c@savedannotator=\count429
+\c@author=\count430
+\c@savedauthor=\count431
+\c@bookauthor=\count432
+\c@savedbookauthor=\count433
+\c@commentator=\count434
+\c@savedcommentator=\count435
+\c@editor=\count436
+\c@savededitor=\count437
+\c@editora=\count438
+\c@savededitora=\count439
+\c@editorb=\count440
+\c@savededitorb=\count441
+\c@editorc=\count442
+\c@savededitorc=\count443
+\c@foreword=\count444
+\c@savedforeword=\count445
+\c@holder=\count446
+\c@savedholder=\count447
+\c@introduction=\count448
+\c@savedintroduction=\count449
+\c@namea=\count450
+\c@savednamea=\count451
+\c@nameb=\count452
+\c@savednameb=\count453
+\c@namec=\count454
+\c@savednamec=\count455
+\c@translator=\count456
+\c@savedtranslator=\count457
+\c@shortauthor=\count458
+\c@savedshortauthor=\count459
+\c@shorteditor=\count460
+\c@savedshorteditor=\count461
+\c@labelname=\count462
+\c@savedlabelname=\count463
+\c@institution=\count464
+\c@savedinstitution=\count465
+\c@lista=\count466
+\c@savedlista=\count467
+\c@listb=\count468
+\c@savedlistb=\count469
+\c@listc=\count470
+\c@savedlistc=\count471
+\c@listd=\count472
+\c@savedlistd=\count473
+\c@liste=\count474
+\c@savedliste=\count475
+\c@listf=\count476
+\c@savedlistf=\count477
+\c@location=\count478
+\c@savedlocation=\count479
+\c@organization=\count480
+\c@savedorganization=\count481
+\c@origlocation=\count482
+\c@savedoriglocation=\count483
+\c@origpublisher=\count484
+\c@savedorigpublisher=\count485
+\c@publisher=\count486
+\c@savedpublisher=\count487
+\c@language=\count488
+\c@savedlanguage=\count489
+\c@origlanguage=\count490
+\c@savedoriglanguage=\count491
+\c@pageref=\count492
+\c@savedpageref=\count493
+\shorthandwidth=\skip90
+\shortjournalwidth=\skip91
+\shortserieswidth=\skip92
+\shorttitlewidth=\skip93
+\shortauthorwidth=\skip94
+\shorteditorwidth=\skip95
+\locallabelnumberwidth=\skip96
+\locallabelalphawidth=\skip97
+\localshorthandwidth=\skip98
+\localshortjournalwidth=\skip99
+\localshortserieswidth=\skip100
+\localshorttitlewidth=\skip101
+\localshortauthorwidth=\skip102
+\localshorteditorwidth=\skip103
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-unicode.
+def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.d
+ef
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-bibtex.d
+ef
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count494
+\c@textcitetotal=\count495
+\c@textcitemaxnames=\count496
+\c@biburlbigbreakpenalty=\count497
+\c@biburlbreakpenalty=\count498
+\c@biburlnumpenalty=\count499
+\c@biburlucpenalty=\count500
+\c@biburllcpenalty=\count501
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count502
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/alphabet
+ic.bbx
+File: alphabetic.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard
+.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count503
+\c@bbx:relatedtotal=\count504
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.
+cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-12-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-exp
+l3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+\@indexfile=\write5
+
+\openout5 = kids.idx
+
+Writing index file kids.idx
+)) (./template/kids/theme.tex
+luaotfload | cache : Lookup cache loaded from C:/Users/dlmunoz/AppData/Local/MiK
+TeX/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Segoe UI Emoji/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Segoe UI Emoji/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Segoe UI Emoji/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SegoeUIEmoji(0)' created for font 'Segoe
+(fontspec)             UI Emoji' with options [Renderer=HarfBuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Segoe UI
+(fontspec)             Emoji:mode=harf;script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SegoeUI(0)' created for font 'Segoe UI'
+(fontspec)             with options [Ligatures=TeX,Ligatures = TeX,BoldFont =
+(fontspec)             {Segoe UI Bold},ItalicFont = {Segoe UI
+(fontspec)             Italic},BoldItalicFont = {Segoe UI Bold Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Segoe
+(fontspec)             UI:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Segoe
+(fontspec)             UI:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Segoe UI
+(fontspec)             Bold:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Segoe UI
+(fontspec)             Bold:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Segoe UI
+(fontspec)             Italic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"name:Segoe UI
+(fontspec)             Italic:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Segoe
+(fontspec)             UI Bold
+(fontspec)             Italic:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"name:Segoe UI Bold
+(fontspec)             Italic:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Bahnschrift(0)' created for font
+(fontspec)             'Bahnschrift' with options [Ligatures =
+(fontspec)             TeX,AutoFakeBold = 2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Bahnschrift:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Bahnschrift:mode=node;script=latn;language=dflt
+;embolden=2;+tlig;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Bahnschrift/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Bahnschrift(1)' created for font
+(fontspec)             'Bahnschrift' with options [Ligatures =
+(fontspec)             TeX,AutoFakeBold = 2.5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Bahnschrift:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Bahnschrift:mode=node;script=latn;language=dflt
+;embolden=2.5;+tlig;"
+
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/t
+ikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawes
+ome5.sty
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l
+3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/fontawes
+ome5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
+e5
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/luatex/luatexbase/luatexbas
+e.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestack/ctablest
+ack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count505
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontaw
+esomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome5/tufontaw
+esomebrands.fd)))) (./main_kids.tex
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count506
+\@quotereset=\count507
+
+LaTeX Warning: Unused global option(s):
+    [fleql].
+
+(C:/Users/dlmunoz/Downloads/LatHex_Forta__2_/build/kids.aux)
+\openout1 = kids.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count508
+\scratchdimen=\dimen337
+\scratchbox=\box111
+\nofMPsegments=\count509
+\nofMParguments=\count510
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count511
+\MPscratchDim=\dimen338
+\MPnumerator=\count512
+\makeMPintoPDFobject=\count513
+\everyMPtoPDFconversion=\toks58
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
+LaTeX Font Info:    Redeclaring math accent \check on input line 6.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/SegoeUI(0)/m/n on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/SegoeUI(0)/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/m/n on input line 6
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/SegoeUI(0)/m/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/SegoeUI(0)/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/b/n on input line 6
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/SegoeUI(0)/b/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 6.
+LaTeX Info: Redefining \microtypecontext on input line 6.
+Package microtype Info: Applying patch `item' on input line 6.
+Package microtype Info: Applying patch `toc' on input line 6.
+Package microtype Info: Applying patch `eqnum' on input line 6.
+Package microtype Info: Applying patch `footnote' on input line 6.
+Package microtype Info: Applying patch `verbatim' on input line 6.
+LaTeX Info: Redefining \microtypesetup on input line 6.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SegoeUI' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 6.
+\c@lstlisting=\count514
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=731.23584pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-37.36449pt
+* \headheight=12.0pt
+* \headsep=10.0pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=62.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/english.
+lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+
+\openout4 = kids-blx.bib
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'kids.bbl' not found.
+
+No file kids.bbl.
+Package biblatex Info: Reference section=0 on input line 6.
+Package biblatex Info: Reference segment=0 on input line 6.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-94.26999pt
+* \headheight=12.0pt
+* \headsep=10.0pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=62.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Bahnschrift' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-cmr.cf
+g
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [1
+
+
+{C:/Users/dlmunoz/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 450.97528pt, 89.62709pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=450.97528pt
+* \textheight=591.5302pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=7.13666pt
+* \headheight=12.0pt
+* \headsep=10.0pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=62.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+Package hyperref Warning: Option `backref' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 17.
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 17.
+
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 17.
+(C:/Users/dlmunoz/Downloads/LatHex_Forta__2_/build/kids.toc
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 2--2
+[][][][][][][]  
+ []
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 3--3
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 4--4
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 5--5
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 6--6
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 7--7
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 8--8
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 9--9
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 10--10
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 11--11
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 12--12
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 13--13
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 14--14
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 15--15
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 16--16
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 17--17
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 18--18
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 19--19
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 20--20
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 21--21
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 22--22
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 23--23
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 24--24
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 25--25
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 26--26
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 27--27
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 28--28
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 29--29
+[][][][][][][]  
+ []
+
+[2
+
+
+
+]
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 31--31
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (22.97252pt too wide) in paragraph at lines 32--32
+[][][][][][][]  
+ []
+
+)
+\tf@toc=\write6
+
+\openout6 = kids.toc
+ [3] [4
+
+
+
+
+]
+Chapter 1.
+(./sections/module1/session01.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+[5
+
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+[]
+ []
+
+
+(C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-TU-empty
+.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
+) [7]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 48--48
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 48--48
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 48--48
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+[8]) [9]
+Chapter 2.
+(./sections/module1/session02.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+[10
+
+] [11]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+[12]) [13]
+Chapter 3.
+(./sections/module1/session03.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
+[]
+ []
+
+[14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+[]
+ []
+
+[15]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 53--53
+[][] 
+ []
+
+) [16]
+Chapter 4.
+(./sections/module1/session04.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+[]
+ []
+
+[18]) [19]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+|\TU/Bahnschrift(1)/b/n/34 School Sup-plies & 
+ []
+
+(./sections/module1/session05.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+[20
+
+] [21]) [22]
+Chapter 6.
+(./sections/module1/session06.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+[23
+
+] [24] [25]) [26] [27
+
+
+]
+Chapter 7.
+(./sections/module2/session07.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+[28
+
+] [29] [30]) [31]
+Chapter 8.
+(./sections/module2/session08.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--16
+[]
+ []
+
+[32
+
+]
+Overfull \vbox (24.65994pt too high) has occurred while \output is active []
+
+
+[33]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 41--41
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 41--41
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 41--41
+[][] 
+ []
+
+) [34] [35]
+Chapter 9.
+(./sections/module2/session09.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+[36
+
+] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 34--34
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 36--36
+[][] 
+ []
+
+) [38] [39]
+Chapter 10.
+(./sections/module2/session10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--15
+[]
+ []
+
+[40
+
+] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+) [42]
+Chapter 11.
+(./sections/module2/session11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--13
+[]
+ []
+
+[43
+
+] [44]) [45]
+Chapter 12.
+(./sections/module2/session12.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+[46
+
+] [47]) [48] [49
+
+
+]
+Chapter 13.
+(./sections/module3/session13.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--22
+[]
+ []
+
+[50
+
+]
+Overfull \vbox (229.4003pt too high) has occurred while \output is active []
+
+
+[51]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+) [52] [53]
+Chapter 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+|\TU/Bahnschrift(1)/b/n/34 Ex-press-ing Likes & 
+ []
+
+(./sections/module3/session14.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+[]
+ []
+
+[54
+
+]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 22--22
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 22--22
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 22--22
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 22--22
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 32--32
+[][] 
+ []
+
+[55]) [56]
+Chapter 15.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+|\TU/Bahnschrift(1)/b/n/34 At the Restau-rant -- 
+ []
+
+(./sections/module3/session15.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[]
+ []
+
+[57
+
+] [58]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 29--34
+\TU/SegoeUI(0)/m/n/10.95 I have a pizza, please? Waiter: Here you []. Cus-tomer:
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+) [59] [60]
+Chapter 16.
+(./sections/module3/session16.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--15
+[]
+ []
+
+[61
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 22--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--41
+
+ []
+
+[62]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 45--45
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 45--45
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 45--45
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 50--50
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 50--50
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 50--50
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 50--50
+[][] 
+ []
+
+[63]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 55--55
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 55--55
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 55--55
+[][] 
+ []
+
+) [64]
+Chapter 17.
+(./sections/module3/session17.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+[]
+ []
+
+[65
+
+] [66]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 43--43
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 43--43
+[][] 
+ []
+
+) [67] [68]
+Chapter 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+|\TU/Bahnschrift(1)/b/n/34 Project 3 -- My Daily 
+ []
+
+(./sections/module3/session18.tex
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+[69
+
+]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+[70]) [71] [72
+
+
+]
+Chapter 19.
+(./sections/module4/session19.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+[73
+
+] [74]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 35--35
+[][] 
+ []
+
+[75]) [76]
+Chapter 20.
+(./sections/module4/session20.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--18
+[]
+ []
+
+[77
+
+]
+Overfull \vbox (85.64804pt too high) has occurred while \output is active []
+
+
+[78]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 51--51
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 51--51
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 51--51
+[][] 
+ []
+
+) [79] [80]
+Chapter 21.
+(./sections/module4/session21.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+[]
+ []
+
+[81
+
+] [82]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 47--47
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 47--47
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 47--47
+[][] 
+ []
+
+) [83] [84]
+Chapter 22.
+(./sections/module4/session22.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+[]
+ []
+
+[85
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 37--37
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 37--37
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 37--37
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 37--37
+[][] 
+ []
+
+[86]) [87]
+Chapter 23.
+(./sections/module4/session23.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[88
+
+]
+Overfull \hbox (0.6pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+
+Overfull \hbox (0.6pt too wide) in paragraph at lines 26--26
+[][] 
+ []
+
+) [89]
+Chapter 24.
+(./sections/module4/session24.tex
+Underfull \hbox (badness 2334) in paragraph at lines 7--8
+[]\TU/SegoeUI(0)/m/n/10.95 Com-plete this script for your pre-sen-ta-tion (Com-p
+leta este guion para tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+[90
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+[91]) [92] [93
+
+
+]
+Chapter 25.
+(./sections/appendices/wordlist.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--14
+[]
+ []
+
+[94
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+[]
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
+[]
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+[]
+ []
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--62
+[]
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+[]
+ []
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--86
+[]
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--100
+[]
+ []
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
+[]
+ []
+
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--136
+[]
+ []
+
+) [104]
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 24.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 33.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[figure] on input line 42.
+See the caption package documentation for explanation.
+
+[105] (C:/Users/dlmunoz/Downloads/LatHex_Forta__2_/build/kids.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package logreq Info: Writing requests to 'kids.run.xml'.
+
+\openout1 = kids.run.xml
+))
+
+Here is how much of LuaTeX's memory you used:
+ 52857 strings out of 476081
+ 100000,2373549 words of node,token memory allocated
+ 1474 words of node memory still in use:
+   31 hlist, 2 vlist, 14 rule, 1 local_par, 5 glue, 5 kern, 1 penalty, 1 margin_
+kern, 4 glyph, 89 attribute, 73 glue_spec, 82 attribute_list, 3 write, 24 pdf_li
+teral, 24 pdf_colorstack nodes
+   avail lists: 1:2,2:6370,3:1728,4:467,5:302,6:142,7:3277,8:3,9:1492,10:18,11:1
+30
+ 73664 multiletter control sequences out of 65536+600000
+ 99 fonts using 61712463 bytes
+ 131i,15n,123p,1949b,3134s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/WINDOWS/Fonts/segoeuii.ttf><C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/f
+onts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf><C:/WINDOWS/Fon
+ts/segoeuib.ttf><C:/WINDOWS/Fonts/segoeui.ttf><c:/users/dlmunoz/appdata/local/pr
+ograms/miktex/fonts/opentype/public/lm/lmsans10-regular.otf><C:/WINDOWS/Fonts/ba
+hnschrift.ttf><C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><C:/Users/dlmunoz/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb>
+Output written on kids.pdf (105 pages, 375791 bytes).
+
+PDF statistics: 688 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 1048576)
+ 496 words of extra memory for PDF output out of 10000 (max. 100000000)
+

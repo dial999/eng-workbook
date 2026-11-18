@@ -1,0 +1,19 @@
+% ============================================================
+%   ENGLISH FUN WORKBOOK — Kids Edition (Ages 9–12)
+%   Compiled with: lualatex
+% ============================================================
+
+\documentclass[11pt,fleql,oneside]{book}
+
+% ===========================================================
+\input{context}            % Global metadata
+\input{template/book/main} % Base template (fonts, layout, etc.)
+
+% ===========================================================
+%   KIDS THEME — overrides colours, fonts, adds workbook boxes
+%   Loaded AFTER base template so \renewfontfamily works correctly
+% ===========================================================
+\input{template/kids/theme}
+
+% ===========================================================
+\input{main_kids}          % Content assembly file
